@@ -1,0 +1,17 @@
+#+Title: cmus helper functions for the Fish shell
+
+This package provides a simple function to toggle =cmus= playback.
+
+* Installation
+
+Install this packages using [[https://github.com/jorgebucaran/fisher][fisher]]:
+
+#+begin_src shell
+fisher add https://github.com/fzuellich/fish-cmus-utils
+#+end_src
+
+* Functions
+
+| Function           | Description      |
+|--------------------+------------------|
+| =cmus-toggle-play= | Toggle playback. |
